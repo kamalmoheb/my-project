@@ -1,0 +1,50 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+#nav-bar
+{
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+#site-name
+{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+body
+{
+    background-color: white;
+    color: black;   
+}
+  
+.dark-mode 
+{
+    background-color: black;
+    color: white;
+}
+#dark-mode-button
+{
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: black solid 1px;
+    padding: 4px;
+}
+#dark-mode-button:hover
+{
+    background-color: white;
+    color:black;
+    font-weight:normal;
+    cursor:pointer;
+}
+#container h2
+{
+    padding-top: 100px;
+}
